@@ -5,6 +5,7 @@ A command-line Python program that connects to the [Votee Wordle API](https://wo
 > **Scoring note:** the Votee API uses a *per-position* feedback rule — `correct` if the letter is in that exact slot, else `present` if the letter appears **anywhere** in the target, else `absent`. Unlike standard Wordle it does **not** cap duplicate letters by count. The solver matches this rule exactly (see [How it works](#how-it-works)); getting it right is the core correctness point.
 
 **Eval Result**
+
 DAILY: SOLVED in 5  (answer: aback)
 
 RANDOM (seeds 1-10)
